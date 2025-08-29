@@ -1,0 +1,18 @@
+PAC(128-71)
+L = 1
+T = 10  Error Count = 1000
+Rate-profile = rm-polar
+design SNR = 3
+Convolution poly = , [1 0 1 1 0 1 1]
+CRC index = [15, 31, 47, 63, 79, 95, 111, 127] , CRC = 0 bits
+Frozen-check = , [84, 88, 97, 98, 100, 104, 112] , Frozen-check = 7 bits
+Mismatch = [84, 88, 97, 98, 100, 104, 112] , Mismatch-length = 0 , Mismatch-first = False
+Enabling-Criterion =, FrozenCheck
+Running : SC Flip , everyBit_
+Decoding starting Time : 2025-08-26 22-17-54
+Running Time : 26 min
+
+
+SNR = [1.0, 1.5, 2.0, 2.5, 3.0, 3.5]
+FER = [0.557039510294936, 0.3659963436928702, 0.21841588479162122, 0.1039136302294197, 0.04079054604726976, 0.01409184334262466]
+average decoding attempt = [6.864218141346689, 5.218281535648995, 3.5889155574950906, 2.3664486660438078, 1.6033414832925836, 1.2318889545851281]
