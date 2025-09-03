@@ -1,0 +1,18 @@
+PAC(128-71)
+L = 8
+T = 1  Error Count = 5000
+Rate-profile = rm-polar
+design SNR = 3
+Convolution poly = , [1 0 1 1 0 1 1]
+CRC index = [15, 31, 47, 63, 79, 95, 111, 127] , CRC = 0 bits
+Frozen-check = , [84, 88, 97, 98, 100, 104, 112] , Frozen-check = 7 bits
+Mismatch = [84, 88, 97, 98, 100, 104, 112] , Mismatch-length = 0 , Mismatch-first = False
+Enabling-Criterion =, FrozenCheck
+Running : Flip bit Everypath ,    genie_aided_scheme1_preserved1
+Decoding starting Time : 2025-09-02 15-24-01
+Running Time : 541 min
+
+
+SNR = [1.0, 1.5, 2.0, 2.5]
+FER = [0.1863610955841252, 0.079369613864686, 0.02700367716539685, 0.00672483833359555]
+average_decoding_attempt = [1.298900689398174, 1.1529305337332763, 1.0633811562822293, 1.019843719113951]
