@@ -1,0 +1,18 @@
+PAC(128-72)
+L = 8
+T = 3  Error Count = 1000
+Rate-profile = rm-polar
+design SNR = 3
+Convolution poly = , [1 0 1 1 0 1 1]
+CRC index = [15, 31, 47, 63, 79, 95, 111, 127] , CRC = 8 bits
+Frozen-check = , [82, 84, 88, 97, 98, 100, 104, 112] , Frozen-check = 0 bits
+Mismatch = [84, 88, 97, 98, 100, 104, 112] , Mismatch-length = 0 , Mismatch-first = False
+Enabling-Criterion =, CRC
+Running : Panmetric  ,  alpha = 1.5  , T3
+Decoding starting Time : 2025-09-10 15-18-54
+Running Time : 279 min
+
+
+SNR = [1.0, 1.5, 2.0, 2.5, 3.0]
+FER = [0.2493150684931507, 0.1179450924944032, 0.042053522665210265, 0.010403350689572745, 0.0020637005180898504]
+average_decoding_attempt = [1.8458281444582814, 1.42936255449511, 1.167457883460068, 1.0494185140149035, 1.0107700015049963]
