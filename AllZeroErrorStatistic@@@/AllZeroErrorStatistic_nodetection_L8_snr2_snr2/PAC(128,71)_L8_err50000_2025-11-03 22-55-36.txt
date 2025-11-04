@@ -1,0 +1,297 @@
+PAC(128-71)
+L = 8
+T = 1  Error Count = 50000 , Max Frame = 50000000000
+Rate-profile = rm-polar
+design SNR = 3
+Convolution poly = , [1 0 1 1 0 1 1]
+CRC index = [15, 31, 47, 63, 79, 95, 111, 127] , CRC = 0 bits
+Frozen-check = , [84, 88, 97, 98, 100, 104, 112] , Frozen-check = 0 bits
+Mismatch = [82, 84, 88, 97, 98, 100, 104, 112] , Mismatch-length = 0 , Mismatch-first = True
+Enabling-Criterion =, Perfect
+Running : Normal SCL
+Decoding starting Time : 2025-11-03 22-55-36
+Running Time : 621 min
+
+
+SNR = [2]
+FER = [0.0662402645318298]
+average_decoding_attempt = [1.0]
+
+snr = 2
+Coping with the case of wrong path
+index[0] = 0
+index[1] = 0
+index[2] = 0
+index[3] = 0
+index[4] = 0
+index[5] = 0
+index[6] = 0
+index[7] = 0
+index[8] = 0
+index[9] = 0
+index[10] = 0
+index[11] = 0
+index[12] = 0
+index[13] = 0
+index[14] = 0
+index[15] = 1370
+index[16] = 0
+index[17] = 0
+index[18] = 0
+index[19] = 0
+index[20] = 0
+index[21] = 0
+index[22] = 0
+index[23] = 1537
+index[24] = 0
+index[25] = 0
+index[26] = 0
+index[27] = 1515
+index[28] = 0
+index[29] = 1390
+index[30] = 1437
+index[31] = 1461
+index[32] = 0
+index[33] = 0
+index[34] = 0
+index[35] = 0
+index[36] = 0
+index[37] = 0
+index[38] = 0
+index[39] = 1889
+index[40] = 0
+index[41] = 0
+index[42] = 0
+index[43] = 1735
+index[44] = 0
+index[45] = 1672
+index[46] = 1785
+index[47] = 1638
+index[48] = 0
+index[49] = 0
+index[50] = 0
+index[51] = 2051
+index[52] = 0
+index[53] = 1969
+index[54] = 2032
+index[55] = 2011
+index[56] = 0
+index[57] = 2084
+index[58] = 1789
+index[59] = 2127
+index[60] = 2082
+index[61] = 2092
+index[62] = 2023
+index[63] = 1939
+index[64] = 0
+index[65] = 0
+index[66] = 0
+index[67] = 0
+index[68] = 0
+index[69] = 0
+index[70] = 0
+index[71] = 3509
+index[72] = 0
+index[73] = 0
+index[74] = 0
+index[75] = 3349
+index[76] = 0
+index[77] = 3721
+index[78] = 3374
+index[79] = 3253
+index[80] = 0
+index[81] = 0
+index[82] = 0
+index[83] = 4191
+index[84] = 14898
+index[85] = 9486
+index[86] = 9507
+index[87] = 12023
+index[88] = 14540
+index[89] = 12077
+index[90] = 9394
+index[91] = 12167
+index[92] = 12144
+index[93] = 13493
+index[94] = 10799
+index[95] = 12823
+index[96] = 0
+index[97] = 27209
+index[98] = 24734
+index[99] = 24144
+index[100] = 26990
+index[101] = 25978
+index[102] = 23683
+index[103] = 24961
+index[104] = 27039
+index[105] = 25760
+index[106] = 26869
+index[107] = 25593
+index[108] = 26337
+index[109] = 26097
+index[110] = 26338
+index[111] = 25072
+index[112] = 26281
+index[113] = 26129
+index[114] = 25370
+index[115] = 26003
+index[116] = 25926
+index[117] = 26687
+index[118] = 25407
+index[119] = 25828
+index[120] = 26467
+index[121] = 26336
+index[122] = 26348
+index[123] = 25093
+index[124] = 25817
+index[125] = 26318
+index[126] = 26782
+index[127] = 26283
+sort index = [ 97 104 100 106 126 117 120 122 110 108 121 125 127 112 113 109 115 101
+ 116 119 124 105 107 118 114 123 111 103  98  99 102  84  88  93  95  91
+  92  89  87  94  86  85  90  83  77  71  78  75  79  59  61  57  60  51
+  54  62  55  53  63  39  58  46  43  45  47  23  27  31  30  29  15   0
+   1   2   3   4   5   6   7   8   9  10  11  12  13  14  16  17  18  19
+  20  21  22  24  25  26  28  32  33  34  35  36  37  38  40  41  42  44
+  48  49  50  52  56  64  65  66  67  68  69  70  72  73  74  76  80  81
+  82  96]
+accumulated codeword = [51806]
+
+Dealing with the case of missing path
+index[0] = 0
+index[1] = 0
+index[2] = 0
+index[3] = 0
+index[4] = 0
+index[5] = 0
+index[6] = 0
+index[7] = 0
+index[8] = 0
+index[9] = 0
+index[10] = 0
+index[11] = 0
+index[12] = 0
+index[13] = 0
+index[14] = 0
+index[15] = 64045
+index[16] = 0
+index[17] = 0
+index[18] = 0
+index[19] = 0
+index[20] = 0
+index[21] = 0
+index[22] = 0
+index[23] = 65095
+index[24] = 0
+index[25] = 0
+index[26] = 0
+index[27] = 63319
+index[28] = 0
+index[29] = 63217
+index[30] = 63657
+index[31] = 62300
+index[32] = 0
+index[33] = 0
+index[34] = 0
+index[35] = 0
+index[36] = 0
+index[37] = 0
+index[38] = 0
+index[39] = 67538
+index[40] = 0
+index[41] = 0
+index[42] = 0
+index[43] = 64047
+index[44] = 0
+index[45] = 63327
+index[46] = 65124
+index[47] = 60590
+index[48] = 0
+index[49] = 0
+index[50] = 0
+index[51] = 68222
+index[52] = 0
+index[53] = 65774
+index[54] = 67087
+index[55] = 67021
+index[56] = 0
+index[57] = 67079
+index[58] = 63479
+index[59] = 67571
+index[60] = 68527
+index[61] = 67961
+index[62] = 67507
+index[63] = 64709
+index[64] = 0
+index[65] = 0
+index[66] = 0
+index[67] = 0
+index[68] = 0
+index[69] = 0
+index[70] = 0
+index[71] = 66857
+index[72] = 0
+index[73] = 0
+index[74] = 0
+index[75] = 65664
+index[76] = 0
+index[77] = 66632
+index[78] = 65462
+index[79] = 61662
+index[80] = 0
+index[81] = 0
+index[82] = 0
+index[83] = 68927
+index[84] = 71570
+index[85] = 70281
+index[86] = 69956
+index[87] = 70799
+index[88] = 70885
+index[89] = 71050
+index[90] = 70045
+index[91] = 71074
+index[92] = 70971
+index[93] = 71609
+index[94] = 70793
+index[95] = 71072
+index[96] = 0
+index[97] = 72944
+index[98] = 72528
+index[99] = 72746
+index[100] = 72965
+index[101] = 73019
+index[102] = 72483
+index[103] = 72725
+index[104] = 72860
+index[105] = 72954
+index[106] = 72630
+index[107] = 72960
+index[108] = 72795
+index[109] = 72743
+index[110] = 72726
+index[111] = 72331
+index[112] = 72504
+index[113] = 73027
+index[114] = 72651
+index[115] = 72823
+index[116] = 72865
+index[117] = 72654
+index[118] = 72926
+index[119] = 73096
+index[120] = 73001
+index[121] = 72853
+index[122] = 72870
+index[123] = 72647
+index[124] = 72718
+index[125] = 72856
+index[126] = 72778
+index[127] = 72927
+sort index = [119 113 101 120 100 107 105  97 127 118 122 116 104 125 121 115 108 126
+  99 109 110 103 124 117 114 123 106  98 112 102 111  93  84  91  95  89
+  92  88  87  94  85  90  86  83  60  51  61  59  39  62  54  57  55  71
+  77  53  75  78  46  23  63  43  15  30  58  45  27  29  31  79  47   0
+   1   2   3   4   5   6   7   8   9  10  11  12  13  14  16  17  18  19
+  20  21  22  24  25  26  28  32  33  34  35  36  37  38  40  41  42  44
+  48  49  50  52  56  64  65  66  67  68  69  70  72  73  74  76  80  81
+  82  96]
+accumulated codeword (eliminated) = 145664(8)

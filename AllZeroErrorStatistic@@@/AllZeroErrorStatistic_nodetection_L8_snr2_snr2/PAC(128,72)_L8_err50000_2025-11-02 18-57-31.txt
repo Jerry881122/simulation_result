@@ -1,0 +1,156 @@
+PAC(128-72)
+L = 8
+T = 1  Error Count = 50000 , Max Frame = 50000000000000000
+Rate-profile = rm-polar
+design SNR = 3
+Convolution poly = , [1 0 1 1 0 1 1]
+CRC index = [15, 31, 47, 63, 79, 95, 111, 127] , CRC = 0 bits
+Frozen-check = , [84, 88, 97, 98, 100, 104, 112] , Frozen-check = 0 bits
+Mismatch = [82, 84, 88, 97, 98, 100, 104, 112] , Mismatch-length = 0 , Mismatch-first = True
+Enabling-Criterion =, Perfect
+Running : Normal SCL
+Decoding starting Time : 2025-11-02 18-57-31
+Running Time : 362 min
+
+
+SNR = [2]
+FER = [0.07262794609371141]
+average_decoding_attempt = [1.0]
+
+snr = 2
+index[0] = 0
+index[1] = 0
+index[2] = 0
+index[3] = 0
+index[4] = 0
+index[5] = 0
+index[6] = 0
+index[7] = 0
+index[8] = 0
+index[9] = 0
+index[10] = 0
+index[11] = 0
+index[12] = 0
+index[13] = 0
+index[14] = 0
+index[15] = 1391
+index[16] = 0
+index[17] = 0
+index[18] = 0
+index[19] = 0
+index[20] = 0
+index[21] = 0
+index[22] = 0
+index[23] = 1529
+index[24] = 0
+index[25] = 0
+index[26] = 0
+index[27] = 1429
+index[28] = 0
+index[29] = 1492
+index[30] = 1383
+index[31] = 1378
+index[32] = 0
+index[33] = 0
+index[34] = 0
+index[35] = 0
+index[36] = 0
+index[37] = 0
+index[38] = 0
+index[39] = 1941
+index[40] = 0
+index[41] = 0
+index[42] = 0
+index[43] = 1782
+index[44] = 0
+index[45] = 1761
+index[46] = 1765
+index[47] = 1769
+index[48] = 0
+index[49] = 0
+index[50] = 0
+index[51] = 2120
+index[52] = 0
+index[53] = 2089
+index[54] = 2017
+index[55] = 2066
+index[56] = 0
+index[57] = 2103
+index[58] = 1885
+index[59] = 2204
+index[60] = 2091
+index[61] = 2049
+index[62] = 2002
+index[63] = 1959
+index[64] = 0
+index[65] = 0
+index[66] = 0
+index[67] = 0
+index[68] = 0
+index[69] = 0
+index[70] = 0
+index[71] = 3761
+index[72] = 0
+index[73] = 0
+index[74] = 0
+index[75] = 3714
+index[76] = 0
+index[77] = 3739
+index[78] = 3675
+index[79] = 3411
+index[80] = 0
+index[81] = 0
+index[82] = 20189
+index[83] = 12488
+index[84] = 20594
+index[85] = 20399
+index[86] = 16396
+index[87] = 18160
+index[88] = 20430
+index[89] = 18498
+index[90] = 16360
+index[91] = 18453
+index[92] = 18265
+index[93] = 20460
+index[94] = 19430
+index[95] = 17896
+index[96] = 0
+index[97] = 30317
+index[98] = 28010
+index[99] = 27961
+index[100] = 30074
+index[101] = 29828
+index[102] = 27997
+index[103] = 28405
+index[104] = 30283
+index[105] = 28226
+index[106] = 29660
+index[107] = 27902
+index[108] = 29835
+index[109] = 29808
+index[110] = 29954
+index[111] = 28742
+index[112] = 29582
+index[113] = 29284
+index[114] = 28916
+index[115] = 29280
+index[116] = 28965
+index[117] = 29507
+index[118] = 29431
+index[119] = 29133
+index[120] = 29407
+index[121] = 29624
+index[122] = 29514
+index[123] = 27933
+index[124] = 29461
+index[125] = 29860
+index[126] = 30100
+index[127] = 29802
+sort index = [ 97 104 126 100 110 125 108 101 109 127 106 121 112 122 117 124 118 120
+ 113 115 119 116 114 111 103 105  98 102  99 123 107  84  93  88  85  82
+  94  89  91  92  87  95  86  90  83  71  77  75  78  79  59  51  57  60
+  53  55  61  54  62  63  39  58  43  47  46  45  23  29  27  15  30  31
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  16  17  18
+  19  20  21  22  24  25  26  28  32  33  34  35  36  37  38  40  41  42
+  44  48  49  50  52  56  64  65  66  67  68  69  70  72  73  74  76  80
+  81  96]
