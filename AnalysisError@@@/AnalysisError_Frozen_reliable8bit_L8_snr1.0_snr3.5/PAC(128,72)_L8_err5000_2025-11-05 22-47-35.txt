@@ -1,0 +1,48 @@
+PAC(128-72)
+L = 8
+T = 1  Error Count = 5000 , Max Frame = 50000000000
+Rate-profile = rm-polar
+design SNR = 3
+Convolution poly = , [1 0 1 1 0 1 1]
+CRC index = [15, 31, 47, 63, 79, 95, 111, 127] , CRC = 0 bits
+Frozen-check = , [63, 95, 111, 119, 123, 125, 126, 127] , Frozen-check = 8 bits
+Mismatch = [82, 84, 88, 97, 98, 100, 104, 112] , Mismatch-length = 0 , Mismatch-first = True
+Enabling-Criterion =, FrozenCheck
+Running : Normal SCL
+Decoding starting Time : 2025-11-05 22-47-35
+Running Time : 668 min
+
+
+SNR = [1.0, 1.5, 2.0, 2.5, 3.0]
+FER = [0.34729166666666667, 0.1793565972097694, 0.07485070270755691, 0.024521797970981803, 0.005922604667026689]
+average_decoding_attempt = [1.0, 1.0, 1.0, 1.0, 1.0]
+correct_number = [9399, 22882, 61812, 198940, 839391]
+miss_path = [4910, 4868, 4792, 4699, 4482]
+wrong_path = [91, 133, 209, 302, 519]
+detect_miss_path = [4661, 4631, 4529, 4443, 4255]  ([0.94928717 0.95131471 0.94511686 0.94552032 0.94935297])
+detect_wrong_path = [0, 0, 0, 0, 0]  ([0. 0. 0. 0. 0.])
+
+snr = 1.0
+numberofpasscheck        = [4661, 235, 91, 12, 2, 0, 0, 0, 0]
+umberofpasscheck_missing = [4661, 235, 12, 2, 0, 0, 0, 0, 0]
+umberofpasscheck_wrong   = [0, 0, 79, 10, 2, 0, 0, 0, 0]
+
+snr = 1.5
+numberofpasscheck        = [4631, 226, 129, 13, 2, 0, 0, 0, 0]
+umberofpasscheck_missing = [4631, 226, 11, 0, 0, 0, 0, 0, 0]
+umberofpasscheck_wrong   = [0, 0, 118, 13, 2, 0, 0, 0, 0]
+
+snr = 2.0
+numberofpasscheck        = [4529, 246, 209, 14, 3, 0, 0, 0, 0]
+umberofpasscheck_missing = [4529, 246, 17, 0, 0, 0, 0, 0, 0]
+umberofpasscheck_wrong   = [0, 0, 192, 14, 3, 0, 0, 0, 0]
+
+snr = 2.5
+numberofpasscheck        = [4443, 241, 281, 26, 10, 0, 0, 0, 0]
+umberofpasscheck_missing = [4443, 241, 15, 0, 0, 0, 0, 0, 0]
+umberofpasscheck_wrong   = [0, 0, 266, 26, 10, 0, 0, 0, 0]
+
+snr = 3.0
+numberofpasscheck        = [4255, 210, 474, 54, 8, 0, 0, 0, 0]
+umberofpasscheck_missing = [4255, 210, 17, 0, 0, 0, 0, 0, 0]
+umberofpasscheck_wrong   = [0, 0, 457, 54, 8, 0, 0, 0, 0]
