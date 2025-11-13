@@ -22,25 +22,29 @@ bit success = 0 (0.0)
 path success = 1859 (0.39637526652452026)
 both success = 0 (0.0)
 flip number = 4690
-extra codeword bit flipping corrected = 0(0)
+extra codeword bit flipping corrected = 0 (0)
+total success = 1859 (0.39637526652452026)
 
 snr = 1.5
 bit success = 0 (0.0)
 path success = 2338 (0.5003209929381554)
 both success = 0 (0.0)
 flip number = 4673
-extra codeword bit flipping corrected = 0(0)
+extra codeword bit flipping corrected = 0 (0)
+total success = 2338 (0.5003209929381554)
 
 snr = 2.0
 bit success = 0 (0.0)
 path success = 2819 (0.6004259850905218)
 both success = 0 (0.0)
 flip number = 4695
-extra codeword bit flipping corrected = 0(0)
+extra codeword bit flipping corrected = 0 (0)
+total success = 2819 (0.6004259850905218)
 
 snr = 2.5
 bit success = 0 (0.0)
 path success = 3230 (0.6895815542271563)
 both success = 0 (0.0)
 flip number = 4684
-extra codeword bit flipping corrected = 0(0)
+extra codeword bit flipping corrected = 0 (0)
+total success = 3230 (0.6895815542271563)

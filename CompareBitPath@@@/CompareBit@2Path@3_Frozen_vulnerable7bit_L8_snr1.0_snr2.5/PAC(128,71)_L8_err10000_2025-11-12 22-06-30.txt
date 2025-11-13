@@ -23,6 +23,7 @@ path success = 2769 (0.29605474179407676)
 both success = 1271 (0.13589222709291138)
 flip number = 9353
 extra codeword bit flipping corrected = 898 (0.7065302911093627)
+total success = 3667 (0.3921319991465268)
 
 snr = 1.5
 bit success = 2772 (0.29755259768140835)
@@ -30,6 +31,7 @@ path success = 3541 (0.3800987548303993)
 both success = 1675 (0.17979819665092314)
 flip number = 9316
 extra codeword bit flipping corrected = 1097 (0.6549253731343283)
+total success = 4638 (0.4977280042853303)
 
 snr = 2.0
 bit success = 3343 (0.35754010695187166)
@@ -37,6 +39,7 @@ path success = 4334 (0.46352941176470586)
 both success = 2149 (0.22983957219251336)
 flip number = 9350
 extra codeword bit flipping corrected = 1194 (0.5556072591903211)
+total success = 5528 (0.5916550802139037)
 
 snr = 2.5
 bit success = 4072 (0.43611438363500055)
@@ -44,3 +47,4 @@ path success = 5192 (0.5560672592909929)
 both success = 2823 (0.302345507122202)
 flip number = 9337
 extra codeword bit flipping corrected = 1249 (0.4424371236273468)
+total success = 6441 (0.6897220283726921)
