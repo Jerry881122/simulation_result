@@ -1,0 +1,70 @@
+PAC(128-71)
+L = 8
+T = 20  Error Count = 20000 , Max Frame = 50000000000
+Rate-profile = rm-polar
+design SNR = 3
+Convolution poly = , [1 0 1 1 0 1 1]
+CRC index = [15, 31, 47, 63, 79, 95, 111, 127] , CRC = 0 bits
+Frozen-check = , [84, 88, 97, 98, 100, 104, 112] , Frozen-check = 7 bits
+Mismatch = [82, 84, 88, 97, 98, 100, 104, 112] , Mismatch-length = 0 , Mismatch-first = True
+Enabling-Criterion =, FrozenCheck
+Running : Normal SCL
+Decoding starting Time : 2025-11-20 02-15-52
+Running Time : 758 min
+
+
+SNR = [1.0, 1.5, 2.0, 2.5]
+FER = [0.3194384552728667, 0.16429680376549446, 0.06676881785041862, 0.021414851313414234]
+average_decoding_attempt = [3.011483238305144, 1.9375621216228427, 1.3432513453244135, 1.0983684840542283]
+
+snr = 1.0
+bit success = 2388 (0.127271758247615)
+path success = 9079 (0.48387784469434525)
+both success = 1988 (0.10595320577732772)
+flip number = 18763
+extra codeword bit flipping corrected = 400(0.2012072434607646)
+total success = 9479  (0.5051963971646325)
+
+single bit total success = [2388]
+single bit duplicate success = [1988]
+single bit duplicate success rate = [0.8324958123953099]
+single bit extra success rate = [0.16750418760469013]
+
+snr = 1.5
+bit success = 3102 (0.16594447119242497)
+path success = 11093 (0.5934306959824533)
+both success = 2682 (0.14347616754935003)
+flip number = 18693
+extra codeword bit flipping corrected = 420(0.15659955257270694)
+total success = 11513  (0.6158989996255283)
+
+single bit total success = [3102]
+single bit duplicate success = [2682]
+single bit duplicate success rate = [0.8646034816247582]
+single bit extra success rate = [0.13539651837524178]
+
+snr = 2.0
+bit success = 4004 (0.21419782806398116)
+path success = 12902 (0.6902048895308405)
+both success = 3569 (0.19092708500508213)
+flip number = 18693
+extra codeword bit flipping corrected = 435(0.12188288035864388)
+total success = 13337  (0.7134756325897395)
+
+single bit total success = [4004]
+single bit duplicate success = [3569]
+single bit duplicate success rate = [0.8913586413586414]
+single bit extra success rate = [0.10864135864135864]
+
+snr = 2.5
+bit success = 4861 (0.26072731173567903)
+path success = 14545 (0.7801437459772581)
+both success = 4463 (0.23937996138167775)
+flip number = 18644
+extra codeword bit flipping corrected = 398(0.08917768317275375)
+total success = 14943  (0.8014910963312594)
+
+single bit total success = [4861]
+single bit duplicate success = [4463]
+single bit duplicate success rate = [0.9181238428306933]
+single bit extra success rate = [0.08187615716930673]

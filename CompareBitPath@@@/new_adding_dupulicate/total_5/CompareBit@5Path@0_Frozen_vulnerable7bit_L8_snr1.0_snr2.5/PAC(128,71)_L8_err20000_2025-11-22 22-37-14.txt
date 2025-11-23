@@ -1,0 +1,75 @@
+PAC(128-71)
+L = 8
+T = 20  Error Count = 20000 , Max Frame = 50000000000
+Rate-profile = rm-polar
+design SNR = 3
+Convolution poly = , [1 0 1 1 0 1 1]
+CRC index = [15, 31, 47, 63, 79, 95, 111, 127] , CRC = 0 bits
+Frozen-check = , [84, 88, 97, 98, 100, 104, 112] , Frozen-check = 7 bits
+Mismatch = [82, 84, 88, 97, 98, 100, 104, 112] , Mismatch-length = 0 , Mismatch-first = True
+Enabling-Criterion =, FrozenCheck
+Running : Normal SCL
+Decoding starting Time : 2025-11-22 22-37-14
+Running Time : 1011 min
+
+
+SNR = [1.0, 1.5, 2.0, 2.5]
+FER = [0.3185227652763843, 0.16451437783773112, 0.0677052127022169, 0.021368155988286563]
+average_decoding_attempt = [2.1958020798496647, 1.5811344344278475, 1.2177019968654055, 1.0630660275058519]
+total success rate = [ 0.34948691774566165, 0.438788590962504, 0.5382509260750523, 0.6280916358173722, ]
+
+snr = 1.0
+bit success = 6505 (0.34948691774566165)
+path success = 0 (0.0)
+both success = 0 (0.0)
+flip number = 18613
+extra codeword bit flipping corrected = 6505(0)
+total success = 6505  (0.34948691774566165)
+
+single bit total success = [2434, 1835, 1061, 614, 561]
+single bit duplicate success = [0, 0, 0, 0, 0]
+single bit duplicate success rate = [0.0, 0.0, 0.0, 0.0, 0.0]
+single bit extra success count = [2434, 1835, 1061, 614, 561]
+single bit extra success rate = [1.0, 1.0, 1.0, 1.0, 1.0]
+
+snr = 1.5
+bit success = 8215 (0.438788590962504)
+path success = 0 (0.0)
+both success = 0 (0.0)
+flip number = 18722
+extra codeword bit flipping corrected = 8215(0)
+total success = 8215  (0.438788590962504)
+
+single bit total success = [3127, 2360, 1316, 738, 674]
+single bit duplicate success = [0, 0, 0, 0, 0]
+single bit duplicate success rate = [0.0, 0.0, 0.0, 0.0, 0.0]
+single bit extra success count = [3127, 2360, 1316, 738, 674]
+single bit extra success rate = [1.0, 1.0, 1.0, 1.0, 1.0]
+
+snr = 2.0
+bit success = 10026 (0.5382509260750523)
+path success = 0 (0.0)
+both success = 0 (0.0)
+flip number = 18627
+extra codeword bit flipping corrected = 10026(0)
+total success = 10026  (0.5382509260750523)
+
+single bit total success = [4057, 2879, 1569, 820, 701]
+single bit duplicate success = [0, 0, 0, 0, 0]
+single bit duplicate success rate = [0.0, 0.0, 0.0, 0.0, 0.0]
+single bit extra success count = [4057, 2879, 1569, 820, 701]
+single bit extra success rate = [1.0, 1.0, 1.0, 1.0, 1.0]
+
+snr = 2.5
+bit success = 11707 (0.6280916358173722)
+path success = 0 (0.0)
+both success = 0 (0.0)
+flip number = 18639
+extra codeword bit flipping corrected = 11707(0)
+total success = 11707  (0.6280916358173722)
+
+single bit total success = [4930, 3358, 1708, 954, 757]
+single bit duplicate success = [0, 0, 0, 0, 0]
+single bit duplicate success rate = [0.0, 0.0, 0.0, 0.0, 0.0]
+single bit extra success count = [4930, 3358, 1708, 954, 757]
+single bit extra success rate = [1.0, 1.0, 1.0, 1.0, 1.0]
