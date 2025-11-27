@@ -1,0 +1,74 @@
+PAC(128-71)
+L = 8
+T = 20  Error Count = 10000 , Max Frame = 50000000000
+Rate-profile = rm-polar
+design SNR = 3
+Convolution poly = , [1 0 1 1 0 1 1]
+CRC index = [31, 47, 63, 79, 95, 111, 127] , CRC = 0 bits
+Frozen-check = , [84, 88, 97, 98, 100, 104, 112] , Frozen-check = 7 bits
+Mismatch = [82, 84, 88, 97, 98, 100, 104, 112] , Mismatch-length = 0 , Mismatch-first = True
+Enabling-Criterion =, FrozenCheck
+Running : Normal SCL
+Decoding starting Time : 2025-11-27 19-50-39
+Running Time : 101 min
+
+
+SNR = [1.0, 1.5, 2.0]
+FER = [0.3159474316042206, 0.16466346153846154, 0.0672462715670849]
+average_decoding_attempt = [2.284419030770203, 1.6397523709167545, 1.2478584204085474]
+
+bit success = [2989, 3875, 4707]  ([0.31974754 0.41342153 0.50455569])
+bit success (actual) = [2738, 3677, 4546]  ([0.29289688 0.39229702 0.48729767])
+path success = [5667, 6753, 7512]  ([0.60622593 0.7204737  0.805231  ])
+path success (actual) = [5416, 6550, 7380]  ([0.57937527 0.69881575 0.79108157])
+both success = [2627, 3581, 4432]  ([0.28102268 0.38205484 0.47507771])
+both success (both) = [2505, 3451, 4318]  ([0.26797176 0.36818521 0.46285776])
+
+total flip number = [9348, 9373, 9329]
+
+success rate = [0.6449507916131793, 0.7518403926170917, 0.8347089720227249]
+success rate (actual) = [0.6043003851091142, 0.7229275578790142, 0.8155214921213421]
+
+total success rate = [ 0.6449507916131793, 0.7518403926170917, 0.8347089720227249, ]
+
+snr = 1.0
+bit success = 2989 (0.319747539580659)
+path success = 5667 (0.6062259306803595)
+both success = 2627 (0.2810226786478391)
+flip number = 9348
+extra codeword bit flipping corrected = 362(0.1377997716025885)
+total success = 6029  (0.6449507916131793)
+
+single bit total success = [1219, 956, 514, 300]
+single bit duplicate success = [1119, 866, 413, 229]
+single bit duplicate success rate = [0.9179655455291222, 0.9058577405857741, 0.8035019455252919, 0.7633333333333333]
+single bit extra success count = [100, 90, 101, 71]
+single bit extra success rate = [0.08203445447087777, 0.09414225941422594, 0.19649805447470817, 0.23666666666666666]
+
+snr = 1.5
+bit success = 3875 (0.4134215299263843)
+path success = 6753 (0.7204737010562253)
+both success = 3581 (0.38205483836551796)
+flip number = 9373
+extra codeword bit flipping corrected = 294(0.08209997207483943)
+total success = 7047  (0.7518403926170917)
+
+single bit total success = [1661, 1178, 670, 366]
+single bit duplicate success = [1613, 1091, 584, 293]
+single bit duplicate success rate = [0.971101745936183, 0.9261460101867572, 0.8716417910447761, 0.8005464480874317]
+single bit extra success count = [48, 87, 86, 73]
+single bit extra success rate = [0.028898254063816978, 0.07385398981324279, 0.12835820895522387, 0.1994535519125683]
+
+snr = 2.0
+bit success = 4707 (0.504555686568764)
+path success = 7512 (0.8052310001071926)
+both success = 4432 (0.47507771465323184)
+flip number = 9329
+extra codeword bit flipping corrected = 275(0.06204873646209386)
+total success = 7787  (0.8347089720227249)
+
+single bit total success = [2012, 1478, 791, 426]
+single bit duplicate success = [1962, 1399, 700, 371]
+single bit duplicate success rate = [0.9751491053677932, 0.9465493910690121, 0.8849557522123894, 0.8708920187793427]
+single bit extra success count = [50, 79, 91, 55]
+single bit extra success rate = [0.02485089463220676, 0.05345060893098782, 0.11504424778761062, 0.12910798122065728]
