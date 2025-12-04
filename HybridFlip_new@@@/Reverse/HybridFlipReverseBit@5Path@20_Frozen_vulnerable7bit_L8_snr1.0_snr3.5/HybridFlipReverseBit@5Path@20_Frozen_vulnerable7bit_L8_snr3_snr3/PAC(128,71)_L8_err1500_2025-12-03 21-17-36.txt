@@ -1,0 +1,54 @@
+PAC(128-71)
+L = 8
+T = 20  Error Count = 1500 , Max Frame = 50000000000
+Rate-profile = rm-polar
+design SNR = 3
+Convolution poly = , [1 0 1 1 0 1 1]
+CRC index = [15, 31, 47, 63, 79, 95, 111, 127] , CRC = 0 bits
+Frozen-check = , [84, 88, 97, 98, 100, 104, 112] , Frozen-check = 7 bits
+Mismatch = [82, 84, 88, 97, 98, 100, 104, 112] , Mismatch-length = 0 , Mismatch-first = True
+Enabling-Criterion =, FrozenCheck
+Running : Normal SCL
+Decoding starting Time : 2025-12-03 21-17-36
+Running Time : 1076 min
+
+
+SNR = [3]
+FER = [0.000682206367198827]
+average_decoding_attempt = [1.0243239975747813]
+
+before Correct = [2189159]
+before Error = [11055]
+before FER = [0.005024511252087297]
+
+TP = [10287]
+FP = [0]
+TN = [2189159]
+FN = [768]
+precision = [1.0]
+recall = [0.9305291723202171]
+f1score = [0.9640146190610065]
+TPR = [0.9305291723202171]
+FPR = [0.0]
+
+after Correct = [2198713]
+after Error = [1501]
+after FER = [0.000682206367198827]
+
+bit number = [892]
+bit success = [252]
+bit success (actual) = [225]
+path number = [10287]
+path success = [9395]
+path success (actual) = [9329]
+
+total flip number = [10287]
+
+success rate = [0.9377855545834548]
+success rate (actual) = [0.9287450179838631]
+
+snr = 3
+TopK = [0.00262467 0.01117916 0.01798386 0.02167785 0.02449694 0.33440264
+ 0.53659959 0.66044522 0.7345193  0.78642947 0.82084184 0.84660251
+ 0.86341985 0.8783902  0.88937494 0.899582   0.9083309  0.91445514
+ 0.9198989  0.92310683]
