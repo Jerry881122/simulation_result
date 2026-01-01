@@ -1,0 +1,48 @@
+PAC(128-72)
+L = 8
+T = 1  Error Count = 5000 , Max Frame = 50000000000
+Rate-profile = rm-polar
+design SNR = 3
+Convolution poly = , [1 0 1 1 0 1 1]
+CRC index = [15, 31, 47, 63, 79, 95, 111, 127] , CRC = 0 bits
+Frozen-check = , [15, 23, 27, 29, 30, 31, 39, 43] , Frozen-check = 8 bits
+Mismatch = [82, 84, 88, 97, 98, 100, 104, 112] , Mismatch-length = 0 , Mismatch-first = True
+Enabling-Criterion =, FrozenCheck
+Running : Normal SCL
+Decoding starting Time : 2025-11-05 22-46-57
+Running Time : 247 min
+
+
+SNR = [1.0, 1.5, 2.0, 2.5, 3.0]
+FER = [0.4778329829925473, 0.2983178239083751, 0.15834467909951555, 0.07394756687219979, 0.028835176493651762]
+average_decoding_attempt = [1.0, 1.0, 1.0, 1.0, 1.0]
+correct_number = [5465, 11763, 26582, 62628, 168433]
+miss_path = [3521, 2911, 2301, 1635, 940]
+wrong_path = [1480, 2090, 2700, 3366, 4061]
+detect_miss_path = [2689, 2206, 1773, 1378, 800]  ([0.76370349 0.75781518 0.77053455 0.84281346 0.85106383])
+detect_wrong_path = [0, 0, 0, 0, 0]  ([0. 0. 0. 0. 0.])
+
+snr = 1.0
+numberofpasscheck        = [2689, 116, 117, 115, 109, 134, 185, 331, 1205]
+umberofpasscheck_missing = [2689, 116, 87, 76, 61, 62, 72, 96, 262]
+umberofpasscheck_wrong   = [0, 0, 30, 39, 48, 72, 113, 235, 943]
+
+snr = 1.5
+numberofpasscheck        = [2206, 92, 85, 77, 101, 119, 190, 348, 1783]
+umberofpasscheck_missing = [2206, 92, 65, 45, 38, 45, 70, 85, 265]
+umberofpasscheck_wrong   = [0, 0, 20, 32, 63, 74, 120, 263, 1518]
+
+snr = 2.0
+numberofpasscheck        = [1773, 50, 53, 59, 87, 111, 182, 267, 2419]
+umberofpasscheck_missing = [1773, 50, 39, 32, 31, 39, 45, 55, 237]
+umberofpasscheck_wrong   = [0, 0, 14, 27, 56, 72, 137, 212, 2182]
+
+snr = 2.5
+numberofpasscheck        = [1378, 25, 28, 32, 37, 69, 90, 212, 3130]
+umberofpasscheck_missing = [1378, 25, 21, 11, 7, 12, 16, 21, 144]
+umberofpasscheck_wrong   = [0, 0, 7, 21, 30, 57, 74, 191, 2986]
+
+snr = 3.0
+numberofpasscheck        = [800, 15, 15, 13, 25, 19, 41, 156, 3917]
+umberofpasscheck_missing = [800, 15, 13, 7, 8, 3, 4, 15, 75]
+umberofpasscheck_wrong   = [0, 0, 2, 6, 17, 16, 37, 141, 3842]

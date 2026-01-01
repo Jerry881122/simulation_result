@@ -1,0 +1,53 @@
+PAC(128-72)
+L = 8
+T = 1  Error Count = 10000 , Max Frame = 50000000000
+Rate-profile = rm-polar
+design SNR = 3
+Convolution poly = , [1 0 1 1 0 1 1]
+CRC index = [15, 31, 47, 63, 79, 95, 111, 127] , CRC = 0 bits
+Frozen-check = , [31, 47, 55, 59, 61, 62, 63, 79] , Frozen-check = 8 bits
+Mismatch = [82, 84, 88, 97, 98, 100, 104, 112] , Mismatch-length = 0 , Mismatch-first = True
+Enabling-Criterion =, FrozenCheck
+Running : Normal SCL
+Decoding starting Time : 2025-11-11 17-33-06
+Running Time : 334 min
+
+
+SNR = [1.0, 1.5, 2.0, 2.5, 3.0]
+FER = [0.47440823490346756, 0.289581885568682, 0.15676285718764205, 0.0713322824761239, 0.027558328258515362]
+average_decoding_attempt = [1.0, 1.0, 1.0, 1.0, 1.0]
+correct_number = [11080, 24535, 53796, 130202, 352902]
+miss_path = [7169, 6036, 4590, 3137, 1898]
+wrong_path = [2832, 3965, 5411, 6864, 8103]
+detect_miss_path = [5804, 4924, 3780, 2648, 1619]  ([0.80959688 0.81577203 0.82352941 0.84411858 0.85300316])
+detect_wrong_path = [0, 0, 0, 0, 0]  ([0. 0. 0. 0. 0.])
+
+snr = 1.0
+numberofpasscheck        = [5804, 209, 257, 247, 278, 337, 387, 634, 1848]
+numberofpasscheck_missing = [5804, 209, 175, 138, 135, 120, 123, 170, 295]
+numberofpasscheck_wrong   = [0, 0, 82, 109, 143, 217, 264, 464, 1553]
+number_of_correct_passchceck = [0, 305, 349, 444, 530, 629, 916, 1574, 6333]
+
+snr = 1.5
+numberofpasscheck        = [4924, 163, 182, 209, 252, 321, 438, 669, 2843]
+numberofpasscheck_missing = [4924, 163, 115, 107, 99, 79, 97, 126, 326]
+numberofpasscheck_wrong   = [0, 0, 67, 102, 153, 242, 341, 543, 2517]
+number_of_correct_passchceck = [0, 366, 428, 558, 745, 1021, 1600, 3044, 16773]
+
+snr = 2.0
+numberofpasscheck        = [3780, 104, 125, 157, 183, 258, 425, 766, 4203]
+numberofpasscheck_missing = [3780, 104, 81, 72, 57, 67, 51, 88, 290]
+numberofpasscheck_wrong   = [0, 0, 44, 85, 126, 191, 374, 678, 3913]
+number_of_correct_passchceck = [0, 351, 470, 588, 947, 1384, 2343, 4895, 42818]
+
+snr = 2.5
+numberofpasscheck        = [2648, 55, 74, 101, 162, 194, 316, 694, 5757]
+numberofpasscheck_missing = [2648, 55, 41, 37, 44, 31, 33, 45, 203]
+numberofpasscheck_wrong   = [0, 0, 33, 64, 118, 163, 283, 649, 5554]
+number_of_correct_passchceck = [0, 290, 419, 603, 956, 1655, 3057, 7766, 115456]
+
+snr = 3.0
+numberofpasscheck        = [1619, 28, 30, 44, 77, 124, 187, 526, 7366]
+numberofpasscheck_missing = [1619, 28, 16, 18, 14, 17, 13, 17, 156]
+numberofpasscheck_wrong   = [0, 0, 14, 26, 63, 107, 174, 509, 7210]
+number_of_correct_passchceck = [0, 173, 294, 521, 911, 1641, 3793, 11466, 334103]
