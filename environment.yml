@@ -1,0 +1,19 @@
+name: py39_pac
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.9
+  - numpy
+  - scipy
+  - matplotlib
+  - tqdm
+  - scikit-learn
+  - numba
+  - llvmlite
+  - pandas
+  - pip
+  - pip:
+      - joblib
+
