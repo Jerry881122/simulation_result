@@ -1,0 +1,36 @@
+PAC(128-72)
+L = 4
+T = 20  Error Count = 10000 , Max Frame = 50000000000
+Rate-profile = rm-polar
+design SNR = 3
+Convolution poly = , [1 0 1 1 0 1 1]
+CRC index = [15, 31, 47, 55, 63, 79, 95, 111, 119, 127] , CRC = 0 bits
+Frozen-check = , [82, 84, 88, 97, 98, 100, 104, 112] , Frozen-check = 8 bits
+Mismatch = [84, 88, 97, 98, 100, 104, 112] , Mismatch-length = 0 , Mismatch-first = True
+Enabling-Criterion =, FrozenCheck
+Running : Enabling ROC
+Decoding starting Time : 2026-01-24 02-00-15
+Running Time : 258 min
+
+
+SNR = [3]
+FER = [0.015156911390947075]
+average_decoding_attempt = [1.0]
+TP = [9838]
+FP = [0]
+TN = [649830]
+FN = [163]
+precision = [1.0]
+recall = [0.9837016298370163]
+f1 score = [0.9917838600735924]
+TPR = [0.9837016298370163]
+FPR = [0.0]
+UER = [0.0002470329523771996]
+
+snr = 3
+error analysis    = [4791, 4700, 4804, 4958, 4875, 4886, 4919, 4849] (bit index)
+error analysis(%) = [0.47905209479052097, 0.46995300469953005, 0.48035196480351966, 0.49575042495750427, 0.4874512548745126, 0.48855114488551143, 0.49185081491850813, 0.48485151484851513]
+correct analysis_TN    = [635629, 11079, 2267, 855] (list)
+correct analysis_FN = [51, 41, 31, 40] (list)
+correct analysis_TN(%) = [0.9781465921856486, 0.017049074373297633, 0.0034886047120016002, 0.0013157287290522137]
+correct analysis_FN(%) = [0.3128834355828221, 0.25153374233128833, 0.1901840490797546, 0.24539877300613497]
